@@ -39,4 +39,4 @@ en una línea separada del código:
 ```
 
 Rust contiene otro tipo de comentarios, los de documentación, estos serán explicados
-a detalle en la Sección "Publicando una Caja a Crates.io" del Capítulo 14.
+a detalle en la Sección "Publicar una Caja en Crates.io" del Capítulo 14.
