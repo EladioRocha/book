@@ -1,42 +1,42 @@
-## Comments
+## Comentarios
 
-All programmers strive to make their code easy to understand, but sometimes
-extra explanation is warranted. In these cases, programmers leave notes, or
-*comments*, in their source code that the compiler will ignore but people
-reading the source code may find useful.
+Todos los programadores se esfuerzan por hacer que su código sea fácil de entender,
+pero a veces añadir una explicación extra es esencial. En estos casos, los programadores
+dejan notas o *comentarios* en el código fuente que el compilador ignorará, pero los lectores
+encontrarán muy útil.
 
-Here’s a simple comment:
-
-```rust
-// hello, world
-```
-
-In Rust, the idiomatic comment style starts a comment with two slashes, and the
-comment continues until the end of the line. For comments that extend beyond a
-single line, you’ll need to include `//` on each line, like this:
+Aquí hay un comentario simple:
 
 ```rust
-// So we’re doing something complicated here, long enough that we need
-// multiple lines of comments to do it! Whew! Hopefully, this comment will
-// explain what’s going on.
+// hola, mundo
 ```
 
-Comments can also be placed at the end of lines containing code:
+En Rust, los comentarios comienzan con dos barras diagonales y continúan hasta
+el final de la línea. Para realizar comentarios que se extienden por más de una
+sola línea, necesitas incluir `//` en cada línea, algo así:
 
-<span class="filename">Filename: src/main.rs</span>
+```rust
+// Entonces aquí estamos haciendo algo complicado, lo suficiente como para
+// que necesitemos varias líneas de comentarios para hacerlo. ¡Uf!
+// Esperemos que este comentario explique lo que está pasando.
+```
+
+Los comentarios también pueden colocarse al final de una línea que contiene código:
+
+<span class="filename">Archivo: src/main.rs</span>
 
 ```rust
 {{#rustdoc_include ../listings/ch03-common-programming-concepts/no-listing-24-comments-end-of-line/src/main.rs}}
 ```
 
-But you’ll more often see them used in this format, with the comment on a
-separate line above the code it’s annotating:
+Pero los verá más a menudo usados en este formato, con un comentario
+en una línea separada del código:
 
-<span class="filename">Filename: src/main.rs</span>
+<span class="filename">Archivo: src/main.rs</span>
 
 ```rust
 {{#rustdoc_include ../listings/ch03-common-programming-concepts/no-listing-25-comments-above-line/src/main.rs}}
 ```
 
-Rust also has another kind of comment, documentation comments, which we’ll
-discuss in the “Publishing a Crate to Crates.io” section of Chapter 14.
+Rust contiene otro tipo de comentarios, los de documentación, estos serán explicados
+a detalle en la Sección "Publicando una Caja a Crates.io" del Capítulo 14.
